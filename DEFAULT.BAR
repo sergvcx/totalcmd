@@ -1,5 +1,5 @@
 [Buttonbar]
-Buttoncount=35
+Buttoncount=36
 button1=wcmicons.dll
 cmd1=cm_Rereadsource
 iconic1=0
@@ -102,10 +102,14 @@ cmd33=%commander_path%\SOFT\PowerGREP4\PowerGREP4.exe
 param33=/folderrecurse "%P%N" /replace  /backup none
 iconic33=0
 menu33=PowerGrep
-button34=C:\Program Files\Git\cmd\git-gui.exe
-cmd34=em_user_git_rename
-iconic34=0
+button34=%commander_path%\SOFT\Beyond Compare Pro 5\icon.ico
+cmd34=%commander_path%\SOFT\Beyond Compare Pro 5\BComparePortable.exe
 button35=C:\Program Files\Git\cmd\git-gui.exe
-cmd35=em_user_git_move
-menu35=git move
+cmd35=em_user_git_rename
 param30=-d %P
+button36=C:\Program Files\Git\cmd\git-gui.exe
+cmd36=em_user_git_move
+menu36=git move
+iconic35=0
+param34=?%P%N %T%M
+menu34=BCompare
